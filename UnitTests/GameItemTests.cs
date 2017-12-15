@@ -16,7 +16,6 @@ namespace GruppArbete.Tests
 
 
     [TestClass()]
-    
     public class GameItemTests
     {
 
@@ -31,5 +30,9 @@ namespace GruppArbete.Tests
 
             Assert.AreEqual(2, gameCharacter.character);
         }
+
+        
     }
+
+
 }
