@@ -9,11 +9,15 @@ namespace GruppArbete
     public class GameItem
     {
         public int character;
-        int laser, door, wall,treasure;
+        public int laser, door, wall,treasure;
        
         public GameItem()
         {
             character = 2;
+            laser = 5;
+            door = 4;
+            wall = 1;
+            treasure = 3;
         }
     }
 }
